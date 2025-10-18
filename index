@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lifetime SAC - Ingeniería · Construcción · Energía · Tecnología</title>
+  <meta name="description" content="Lifetime SAC - Servicios en ingeniería, construcción, infraestructura, energía y tecnología. Sede en Ferreñafe, Lambayeque, Perú." />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; line-height:1.5;}
+    header {background:#003b3b; color:#fff; padding:40px 20px;}
+    h1 {margin:0;}
+    nav a {color:#fff; margin-right:15px; text-decoration:none;}
+    section {padding:30px 20px; border-bottom:1px solid #eee;}
+    .container {max-width:1000px; margin:auto;}
+    footer {text-align:center; padding:20px; color:#666;}
+    .btn {display:inline-block; padding:10px 16px; background:#0b6; color:#fff; border-radius:6px; text-decoration:none;}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Lifetime SAC</h1>
+    <p>Ingeniería · Construcción · Infraestructura · Energía · Tecnología</p>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+<section id="nosotros">
+  <h2>Quiénes somos</h2>
+  <p>Lifetime SAC es una empresa peruana dedicada a ofrecer servicios integrales en ingeniería, construcción, infraestructura, energía y tecnología. Nuestro enfoque es entregar soluciones seguras, eficientes y adaptadas a las necesidades locales en Lambayeque y la región norte del Perú.</p>
+  <p><strong>Representante legal:</strong> Elías Manayay Leonardo (DNI: 48117160)</p>
+</section>
+
+<section id="servicios">
+  <h2>Áreas de actividad</h2>
+  <ul>
+    <li>Ingeniería</li>
+    <li>Construcción</li>
+    <li>Infraestructura</li>
+    <li>Energía</li>
+    <li>Tecnología</li>
+  </ul>
+</section>
+
+<section id="equipo">
+  <h2>Equipo</h2>
+  <ul>
+    <li>Samuel Manayay Leonardo</li>
+    <li>Benjamín Manyay Leonardo</li>
+    <li>Eleuterio Manaya Leonardo</li>
+  </ul>
+</section>
+
+<section id="ubicacion">
+  <h2>Ubicación</h2>
+  <p>OTR. Vista Alegre Km. 0.5 (A 500 metros de IE San Pablo de Huasicaj), Incahuasi, Ferreñafe — Lambayeque — Perú</p>
+  <p><a class="btn" href="https://www.google.com/maps?q=OTR+Vista+Alegre+Km+0.5+Incahuasi+Ferreñafe+Lambayeque+Peru" target="_blank">Ver en Google Maps</a></p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Correo oficial: <a href="mailto:lifetimesac04@gmail.com">lifetimesac04@gmail.com</a></p>
+  <form action="mailto:lifetimesac04@gmail.com" method="post" enctype="text/plain">
+    <label>Nombre:<br><input type="text" name="nombre" required></label><br><br>
+    <label>Teléfono:<br><input type="text" name="telefono"></label><br><br>
+    <label>Mensaje:<br><textarea name="mensaje" rows="4"></textarea></label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>© Lifetime SAC - RUC 206066229304 - Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
